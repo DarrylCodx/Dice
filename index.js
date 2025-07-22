@@ -9,7 +9,7 @@ var b = document.querySelector(".img2").setAttribute("src","./images/dice"+rando
 //Setting up a winner
 if(randomNumber1 > randomNumber2){
     var n = document.querySelector('h1').textContent = "Player 1 Winner!";
-}else if(randomNumber1 > randomNumber2){
+}else if(randomNumber1 < randomNumber2){
     var n = document.querySelector('h1').textContent = "Player 2 Winner!";
 }else {
      var n = document.querySelector('h1').textContent = "Draw!";
